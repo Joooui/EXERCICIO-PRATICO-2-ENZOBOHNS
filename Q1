@@ -1,0 +1,115 @@
+<!DOCTYPE>
+<html lang="pt-BR">
+
+<head>
+<style>
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: Arial, sans-serif;
+}
+
+body {
+         background: #f4f4f9;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         min-height: 100vh;
+}
+
+.card {
+         background: white;
+         width: 400px;
+         padding: 30px;
+         border-radius: 12px;
+         text-align: center;
+         box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.foto {
+        widht: 120px;
+        height: 120px;
+        background: #c7a863;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto 20px auto;
+}
+
+h2 {
+     color: #c7a863;
+     margin-bottom: 5px;
+}
+
+.profissão {
+               font-weight: bold;
+               color: #555;
+               margin-bottom: 15px;
+}
+
+.descrição {
+               font-size: 14px;
+               color: #333;
+               margin-bottom: 20px;
+}
+
+.skills {
+        margin-bottom: 20px;
+}
+
+.skill {
+       display: inline-block;
+       background: #c7a863;
+       color: white;
+       padding: 6px 12px;
+       border-radius: 6px;
+       margin: 5px;
+       font-size: 13px;
+}
+
+.links a {
+           margin: 0 10px;
+           color: #c7a863;
+           text-decoration: none;
+           font-weight: bold;
+}
+
+.links a:hover {
+                    text-decoration: underline;
+}
+
+</style>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Perfil Pessoal</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <div class="card">
+   <div class="foto">
+   <span>2025 0234 2101</span>
+   </div>
+     <h2>Enzo Bohns</h2>
+     <p class="profissão">Desenvolvedor Web</p>
+     <p class="descrição"> Bom dia! Meu nome é Enzo Bohns, e possuo uma paixão pessoal pela tecnologia e a sensação de criar algo novo! Tenho uma experiência inicial com HTML, CSS e Gamemaker! Porém meu sonho de realização seria trabalhar em como dev em um game! </p>
+
+   <div class="skills">
+   <span class="skill">HTML</span>
+   <span class="skill">CSS</span>
+   <span class="skill">Gamemaker</span>
+   </div>
+
+   <div class="links">
+   <a href="#">Twitter</a>
+   <a href-"#">GitHub</a>
+   </div>
+</div>
+</body>
+</html>
