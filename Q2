@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+   <title>Tabela e Formulário</title>
+
+<style>
+body {
+         font-family: Arial, sans-serif;
+         background: #f4f4f9;
+         margin: 20px;
+}
+
+h2 {
+     margin-bottom: 15px;
+     color: #333;
+}
+
+table {
+         width: 100px;
+         border-collapse: collpase;
+         margin-bottom: 40px;
+         background: white;
+         border-radius: 8px;
+         overflow: hidden;
+         box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+table th, table td {
+                         padding: 12px 15px;
+                         text-align: left;
+                         border-bottom: 1px solid #ddd;
+}
+
+table th {
+            background: #c7a863;
+            color: white;
+            font-weight: bold;
+}
+
+table tr:hover {
+                     background: #f1f1f1;
+}
+</style>
+</head>
+
+<body>
+   <h2>Tabela de Produtos</h2>
+   <table>
+          <tr>
+              <th>Produtos</th>
+              <th>Descrição</th>
+              <th>Preços</th>
+          </tr>
+          <tr>
+              <td>Notebook</td>
+              <td>Computador portátil com 8GB de RAM e 256GB de SDD</td>
+              <td>R$3.500,00</td>
+          </tr>
+          <tr>
+              <td>Smartphone</td>
+              <td>Celular com câmera de 48MP e 128GB de armazenamento</td>
+              <td>R$2.200,00</td>
+          </tr>
+          <tr>
+              <td>Monitor</td>
+              <td>Monitor de 24 polegadas com resolução Full HD 16:9</td>
+              <td>R$800,00</td>
+          </tr>
+          <tr>
+              <td>Teclado</td>
+              <td>Teclado mecânico com iluminação RGB</td>
+              <td>R$250,00</td>
+          </tr>
+          <tr>
+              <td>Mouse</td>
+              <td>Mouse sem fio com sensor óptico</td>
+              <td>R$120,00</td>
+          </tr>
+   </table>
+</body>
+</html>
